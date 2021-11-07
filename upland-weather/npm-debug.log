@@ -1,0 +1,421 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'node@latest' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData node@latest
+8 silly fetchNamedPackageData node
+9 silly mapToRegistry name node
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/node
+13 verbose request uri https://registry.npmjs.org/node
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 2:05:36 AM
+16 verbose request id 0e96fac3428977b6
+17 verbose etag W/"bfeab0d02212b77a1cb055629d11d5e4"
+18 verbose lastModified Thu, 30 Sep 2021 00:41:38 GMT
+19 http request GET https://registry.npmjs.org/node
+20 http 304 https://registry.npmjs.org/node
+21 verbose headers { date: 'Sun, 03 Oct 2021 09:05:36 GMT',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'cf-ray': '69850278bb2020fd-IND',
+21 verbose headers   age: '260',
+21 verbose headers   'cache-control': 'public, max-age=300',
+21 verbose headers   etag: '"bfeab0d02212b77a1cb055629d11d5e4"',
+21 verbose headers   'last-modified': 'Thu, 30 Sep 2021 00:41:38 GMT',
+21 verbose headers   vary: 'Accept-Encoding',
+21 verbose headers   'cf-cache-status': 'HIT',
+21 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+21 verbose headers   'x-amz-replication-status': 'COMPLETED',
+21 verbose headers   server: 'cloudflare' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Sun, 03 Oct 2021 09:05:36 GMT',
+22 silly get     connection: 'keep-alive',
+22 silly get     'cf-ray': '69850278bb2020fd-IND',
+22 silly get     age: '260',
+22 silly get     'cache-control': 'public, max-age=300',
+22 silly get     etag: '"bfeab0d02212b77a1cb055629d11d5e4"',
+22 silly get     'last-modified': 'Thu, 30 Sep 2021 00:41:38 GMT',
+22 silly get     vary: 'Accept-Encoding',
+22 silly get     'cf-cache-status': 'HIT',
+22 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+22 silly get     'x-amz-replication-status': 'COMPLETED',
+22 silly get     server: 'cloudflare' } ]
+23 verbose etag https://registry.npmjs.org/node from cache
+24 verbose get saving node to /home/jerrod/.npm/registry.npmjs.org/node/.cache.json
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly resolveWithNewModule node@16.10.0 checking installable status
+38 silly cache add args [ 'node@latest', null ]
+39 verbose cache add spec node@latest
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'node@latest',
+40 silly cache add   scope: null,
+40 silly cache add   name: 'node',
+40 silly cache add   rawSpec: 'latest',
+40 silly cache add   spec: 'latest',
+40 silly cache add   type: 'tag' }
+41 silly addNamed node@latest
+42 verbose addNamed "latest" is being treated as a dist-tag for node
+43 info addNameTag [ 'node', 'latest' ]
+44 silly mapToRegistry name node
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry uri https://registry.npmjs.org/node
+48 verbose addNameTag registry:https://registry.npmjs.org/node not in flight; fetching
+49 verbose get https://registry.npmjs.org/node not expired, no request
+50 silly addNameTag next cb for node with tag latest
+51 silly addNamed node@16.10.0
+52 verbose addNamed "16.10.0" is a plain semver version for node
+53 silly cache afterAdd node@16.10.0
+54 verbose afterAdd /home/jerrod/.npm/node/16.10.0/package/package.json not in flight; writing
+55 verbose afterAdd /home/jerrod/.npm/node/16.10.0/package/package.json written
+56 silly fetchNamedPackageData node-bin-setup
+57 silly mapToRegistry name node-bin-setup
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry https://registry.npmjs.org/
+60 silly mapToRegistry uri https://registry.npmjs.org/node-bin-setup
+61 verbose request uri https://registry.npmjs.org/node-bin-setup
+62 verbose request no auth needed
+63 info attempt registry request try #1 at 2:05:36 AM
+64 verbose etag W/"696d6ec470fda56a33885508a280edab"
+65 verbose lastModified Sun, 27 May 2018 09:55:03 GMT
+66 http request GET https://registry.npmjs.org/node-bin-setup
+67 http 304 https://registry.npmjs.org/node-bin-setup
+68 verbose headers { date: 'Sun, 03 Oct 2021 09:05:36 GMT',
+68 verbose headers   connection: 'keep-alive',
+68 verbose headers   'cf-ray': '69850279cb4420fd-IND',
+68 verbose headers   age: '259',
+68 verbose headers   'cache-control': 'public, max-age=300',
+68 verbose headers   etag: '"696d6ec470fda56a33885508a280edab"',
+68 verbose headers   'last-modified': 'Sun, 27 May 2018 09:55:03 GMT',
+68 verbose headers   vary: 'Accept-Encoding',
+68 verbose headers   'cf-cache-status': 'HIT',
+68 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+68 verbose headers   server: 'cloudflare' }
+69 silly get cb [ 304,
+69 silly get   { date: 'Sun, 03 Oct 2021 09:05:36 GMT',
+69 silly get     connection: 'keep-alive',
+69 silly get     'cf-ray': '69850279cb4420fd-IND',
+69 silly get     age: '259',
+69 silly get     'cache-control': 'public, max-age=300',
+69 silly get     etag: '"696d6ec470fda56a33885508a280edab"',
+69 silly get     'last-modified': 'Sun, 27 May 2018 09:55:03 GMT',
+69 silly get     vary: 'Accept-Encoding',
+69 silly get     'cf-cache-status': 'HIT',
+69 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+69 silly get     server: 'cloudflare' } ]
+70 verbose etag https://registry.npmjs.org/node-bin-setup from cache
+71 verbose get saving node-bin-setup to /home/jerrod/.npm/registry.npmjs.org/node-bin-setup/.cache.json
+72 silly resolveWithNewModule node-bin-setup@1.0.6 checking installable status
+73 silly cache add args [ 'node-bin-setup@^1.0.0', null ]
+74 verbose cache add spec node-bin-setup@^1.0.0
+75 silly cache add parsed spec Result {
+75 silly cache add   raw: 'node-bin-setup@^1.0.0',
+75 silly cache add   scope: null,
+75 silly cache add   name: 'node-bin-setup',
+75 silly cache add   rawSpec: '^1.0.0',
+75 silly cache add   spec: '>=1.0.0 <2.0.0',
+75 silly cache add   type: 'range' }
+76 silly addNamed node-bin-setup@>=1.0.0 <2.0.0
+77 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for node-bin-setup
+78 silly addNameRange { name: 'node-bin-setup',
+78 silly addNameRange   range: '>=1.0.0 <2.0.0',
+78 silly addNameRange   hasData: false }
+79 silly mapToRegistry name node-bin-setup
+80 silly mapToRegistry using default registry
+81 silly mapToRegistry registry https://registry.npmjs.org/
+82 silly mapToRegistry uri https://registry.npmjs.org/node-bin-setup
+83 verbose addNameRange registry:https://registry.npmjs.org/node-bin-setup not in flight; fetching
+84 verbose get https://registry.npmjs.org/node-bin-setup not expired, no request
+85 silly addNameRange number 2 { name: 'node-bin-setup',
+85 silly addNameRange   range: '>=1.0.0 <2.0.0',
+85 silly addNameRange   hasData: true }
+86 silly addNameRange versions [ 'node-bin-setup',
+86 silly addNameRange   [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.4', '1.0.6' ] ]
+87 silly addNamed node-bin-setup@1.0.6
+88 verbose addNamed "1.0.6" is a plain semver version for node-bin-setup
+89 silly cache afterAdd node-bin-setup@1.0.6
+90 verbose afterAdd /home/jerrod/.npm/node-bin-setup/1.0.6/package/package.json not in flight; writing
+91 verbose afterAdd /home/jerrod/.npm/node-bin-setup/1.0.6/package/package.json written
+92 silly loadAllDepsIntoIdealTree Finishing
+93 silly idealTree:prePrune upland-weather@1.0.0
+93 silly idealTree:prePrune ├── ajv@6.12.6
+93 silly idealTree:prePrune ├── asn1@0.2.4
+93 silly idealTree:prePrune ├── assert-plus@1.0.0
+93 silly idealTree:prePrune ├── asynckit@0.4.0
+93 silly idealTree:prePrune ├── aws-sign2@0.7.0
+93 silly idealTree:prePrune ├── aws4@1.11.0
+93 silly idealTree:prePrune ├── bcrypt-pbkdf@1.0.2
+93 silly idealTree:prePrune ├── caseless@0.12.0
+93 silly idealTree:prePrune ├── combined-stream@1.0.8
+93 silly idealTree:prePrune ├── core-util-is@1.0.2
+93 silly idealTree:prePrune ├── dashdash@1.14.1
+93 silly idealTree:prePrune ├── delayed-stream@1.0.0
+93 silly idealTree:prePrune ├── ecc-jsbn@0.1.2
+93 silly idealTree:prePrune ├── extend@3.0.2
+93 silly idealTree:prePrune ├── extsprintf@1.3.0
+93 silly idealTree:prePrune ├── fast-deep-equal@3.1.3
+93 silly idealTree:prePrune ├── fast-json-stable-stringify@2.1.0
+93 silly idealTree:prePrune ├── forever-agent@0.6.1
+93 silly idealTree:prePrune ├── form-data@2.3.3
+93 silly idealTree:prePrune ├── getpass@0.1.7
+93 silly idealTree:prePrune ├── har-schema@2.0.0
+93 silly idealTree:prePrune ├── har-validator@5.1.5
+93 silly idealTree:prePrune ├── http-signature@1.2.0
+93 silly idealTree:prePrune ├── is-typedarray@1.0.0
+93 silly idealTree:prePrune ├── isstream@0.1.2
+93 silly idealTree:prePrune ├── jsbn@0.1.1
+93 silly idealTree:prePrune ├── json-schema-traverse@0.4.1
+93 silly idealTree:prePrune ├── json-schema@0.2.3
+93 silly idealTree:prePrune ├── json-stringify-safe@5.0.1
+93 silly idealTree:prePrune ├── jsprim@1.4.1
+93 silly idealTree:prePrune ├── mime-db@1.49.0
+93 silly idealTree:prePrune ├── mime-types@2.1.32
+93 silly idealTree:prePrune ├── moment@2.29.1
+93 silly idealTree:prePrune ├── node-bin-setup@1.0.6
+93 silly idealTree:prePrune ├── node@16.10.0
+93 silly idealTree:prePrune ├── oauth-sign@0.9.0
+93 silly idealTree:prePrune ├── performance-now@2.1.0
+93 silly idealTree:prePrune ├── psl@1.8.0
+93 silly idealTree:prePrune ├── punycode@2.1.1
+93 silly idealTree:prePrune ├── qs@6.5.2
+93 silly idealTree:prePrune ├── request@2.88.2
+93 silly idealTree:prePrune ├── safe-buffer@5.2.1
+93 silly idealTree:prePrune ├── safer-buffer@2.1.2
+93 silly idealTree:prePrune ├── sshpk@1.16.1
+93 silly idealTree:prePrune ├── tough-cookie@2.5.0
+93 silly idealTree:prePrune ├── tunnel-agent@0.6.0
+93 silly idealTree:prePrune ├── tweetnacl@0.14.5
+93 silly idealTree:prePrune ├── uri-js@4.4.1
+93 silly idealTree:prePrune ├── uuid@3.4.0
+93 silly idealTree:prePrune └─┬ verror@1.10.0
+93 silly idealTree:prePrune   └── extsprintf@1.4.0
+94 silly loadIdealTree Finishing
+95 silly currentTree upland-weather@1.0.0
+95 silly currentTree ├── ajv@6.12.6
+95 silly currentTree ├── asn1@0.2.4
+95 silly currentTree ├── assert-plus@1.0.0
+95 silly currentTree ├── asynckit@0.4.0
+95 silly currentTree ├── aws-sign2@0.7.0
+95 silly currentTree ├── aws4@1.11.0
+95 silly currentTree ├── bcrypt-pbkdf@1.0.2
+95 silly currentTree ├── caseless@0.12.0
+95 silly currentTree ├── combined-stream@1.0.8
+95 silly currentTree ├── core-util-is@1.0.2
+95 silly currentTree ├── dashdash@1.14.1
+95 silly currentTree ├── delayed-stream@1.0.0
+95 silly currentTree ├── ecc-jsbn@0.1.2
+95 silly currentTree ├── extend@3.0.2
+95 silly currentTree ├── extsprintf@1.3.0
+95 silly currentTree ├── fast-deep-equal@3.1.3
+95 silly currentTree ├── fast-json-stable-stringify@2.1.0
+95 silly currentTree ├── forever-agent@0.6.1
+95 silly currentTree ├── form-data@2.3.3
+95 silly currentTree ├── getpass@0.1.7
+95 silly currentTree ├── har-schema@2.0.0
+95 silly currentTree ├── har-validator@5.1.5
+95 silly currentTree ├── http-signature@1.2.0
+95 silly currentTree ├── is-typedarray@1.0.0
+95 silly currentTree ├── isstream@0.1.2
+95 silly currentTree ├── jsbn@0.1.1
+95 silly currentTree ├── json-schema-traverse@0.4.1
+95 silly currentTree ├── json-schema@0.2.3
+95 silly currentTree ├── json-stringify-safe@5.0.1
+95 silly currentTree ├── jsprim@1.4.1
+95 silly currentTree ├── mime-db@1.49.0
+95 silly currentTree ├── mime-types@2.1.32
+95 silly currentTree ├── moment@2.29.1
+95 silly currentTree ├── oauth-sign@0.9.0
+95 silly currentTree ├── performance-now@2.1.0
+95 silly currentTree ├── psl@1.8.0
+95 silly currentTree ├── punycode@2.1.1
+95 silly currentTree ├── qs@6.5.2
+95 silly currentTree ├── request@2.88.2
+95 silly currentTree ├── safe-buffer@5.2.1
+95 silly currentTree ├── safer-buffer@2.1.2
+95 silly currentTree ├── sshpk@1.16.1
+95 silly currentTree ├── tough-cookie@2.5.0
+95 silly currentTree ├── tunnel-agent@0.6.0
+95 silly currentTree ├── tweetnacl@0.14.5
+95 silly currentTree ├── uri-js@4.4.1
+95 silly currentTree ├── uuid@3.4.0
+95 silly currentTree └─┬ verror@1.10.0
+95 silly currentTree   └── extsprintf@1.4.0
+96 silly idealTree upland-weather@1.0.0
+96 silly idealTree ├── ajv@6.12.6
+96 silly idealTree ├── asn1@0.2.4
+96 silly idealTree ├── assert-plus@1.0.0
+96 silly idealTree ├── asynckit@0.4.0
+96 silly idealTree ├── aws-sign2@0.7.0
+96 silly idealTree ├── aws4@1.11.0
+96 silly idealTree ├── bcrypt-pbkdf@1.0.2
+96 silly idealTree ├── caseless@0.12.0
+96 silly idealTree ├── combined-stream@1.0.8
+96 silly idealTree ├── core-util-is@1.0.2
+96 silly idealTree ├── dashdash@1.14.1
+96 silly idealTree ├── delayed-stream@1.0.0
+96 silly idealTree ├── ecc-jsbn@0.1.2
+96 silly idealTree ├── extend@3.0.2
+96 silly idealTree ├── extsprintf@1.3.0
+96 silly idealTree ├── fast-deep-equal@3.1.3
+96 silly idealTree ├── fast-json-stable-stringify@2.1.0
+96 silly idealTree ├── forever-agent@0.6.1
+96 silly idealTree ├── form-data@2.3.3
+96 silly idealTree ├── getpass@0.1.7
+96 silly idealTree ├── har-schema@2.0.0
+96 silly idealTree ├── har-validator@5.1.5
+96 silly idealTree ├── http-signature@1.2.0
+96 silly idealTree ├── is-typedarray@1.0.0
+96 silly idealTree ├── isstream@0.1.2
+96 silly idealTree ├── jsbn@0.1.1
+96 silly idealTree ├── json-schema-traverse@0.4.1
+96 silly idealTree ├── json-schema@0.2.3
+96 silly idealTree ├── json-stringify-safe@5.0.1
+96 silly idealTree ├── jsprim@1.4.1
+96 silly idealTree ├── mime-db@1.49.0
+96 silly idealTree ├── mime-types@2.1.32
+96 silly idealTree ├── moment@2.29.1
+96 silly idealTree ├── node-bin-setup@1.0.6
+96 silly idealTree ├── node@16.10.0
+96 silly idealTree ├── oauth-sign@0.9.0
+96 silly idealTree ├── performance-now@2.1.0
+96 silly idealTree ├── psl@1.8.0
+96 silly idealTree ├── punycode@2.1.1
+96 silly idealTree ├── qs@6.5.2
+96 silly idealTree ├── request@2.88.2
+96 silly idealTree ├── safe-buffer@5.2.1
+96 silly idealTree ├── safer-buffer@2.1.2
+96 silly idealTree ├── sshpk@1.16.1
+96 silly idealTree ├── tough-cookie@2.5.0
+96 silly idealTree ├── tunnel-agent@0.6.0
+96 silly idealTree ├── tweetnacl@0.14.5
+96 silly idealTree ├── uri-js@4.4.1
+96 silly idealTree ├── uuid@3.4.0
+96 silly idealTree └─┬ verror@1.10.0
+96 silly idealTree   └── extsprintf@1.4.0
+97 silly generateActionsToTake Starting
+98 silly install generateActionsToTake
+99 silly generateActionsToTake Finishing
+100 silly diffTrees action count 2
+101 silly diffTrees add node-bin-setup@1.0.6
+102 silly diffTrees add node@16.10.0
+103 silly decomposeActions action count 16
+104 silly decomposeActions fetch node-bin-setup@1.0.6
+105 silly decomposeActions extract node-bin-setup@1.0.6
+106 silly decomposeActions test node-bin-setup@1.0.6
+107 silly decomposeActions preinstall node-bin-setup@1.0.6
+108 silly decomposeActions build node-bin-setup@1.0.6
+109 silly decomposeActions install node-bin-setup@1.0.6
+110 silly decomposeActions postinstall node-bin-setup@1.0.6
+111 silly decomposeActions finalize node-bin-setup@1.0.6
+112 silly decomposeActions fetch node@16.10.0
+113 silly decomposeActions extract node@16.10.0
+114 silly decomposeActions test node@16.10.0
+115 silly decomposeActions preinstall node@16.10.0
+116 silly decomposeActions build node@16.10.0
+117 silly decomposeActions install node@16.10.0
+118 silly decomposeActions postinstall node@16.10.0
+119 silly decomposeActions finalize node@16.10.0
+120 silly executeActions Starting
+121 silly install executeActions
+122 silly doSerial global-install 0
+123 silly doParallel fetch 2
+124 verbose lock using /home/jerrod/.npm/_locks/staging-eb3e5ba56164bbd9.lock for /home/jerrod/cos243/upland-weather/node_modules/.staging
+125 silly doParallel extract 2
+126 silly extract node-bin-setup@1.0.6
+127 silly extract node@16.10.0
+128 verbose unbuild node_modules/.staging/node-bin-setup-93b247d6
+129 verbose unbuild node_modules/.staging/node-4798e864
+130 silly gentlyRm /home/jerrod/cos243/upland-weather/node_modules/.staging/node-bin-setup-93b247d6 is being purged from base /home/jerrod/cos243/upland-weather
+131 verbose gentlyRm don't care about contents; nuking /home/jerrod/cos243/upland-weather/node_modules/.staging/node-bin-setup-93b247d6
+132 verbose tar unpack /home/jerrod/.npm/node-bin-setup/1.0.6/package.tgz
+133 verbose tar unpacking to /home/jerrod/cos243/upland-weather/node_modules/.staging/node-bin-setup-93b247d6
+134 silly gentlyRm /home/jerrod/cos243/upland-weather/node_modules/.staging/node-bin-setup-93b247d6 is being purged
+135 verbose gentlyRm don't care about contents; nuking /home/jerrod/cos243/upland-weather/node_modules/.staging/node-bin-setup-93b247d6
+136 silly gentlyRm /home/jerrod/cos243/upland-weather/node_modules/.staging/node-4798e864 is being purged from base /home/jerrod/cos243/upland-weather
+137 verbose gentlyRm don't care about contents; nuking /home/jerrod/cos243/upland-weather/node_modules/.staging/node-4798e864
+138 silly gunzTarPerm modes [ '775', '664' ]
+139 verbose tar unpack /home/jerrod/.npm/node/16.10.0/package.tgz
+140 verbose tar unpacking to /home/jerrod/cos243/upland-weather/node_modules/.staging/node-4798e864
+141 silly gentlyRm /home/jerrod/cos243/upland-weather/node_modules/.staging/node-4798e864 is being purged
+142 verbose gentlyRm don't care about contents; nuking /home/jerrod/cos243/upland-weather/node_modules/.staging/node-4798e864
+143 silly gunzTarPerm modes [ '775', '664' ]
+144 silly gunzTarPerm extractEntry package.json
+145 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+146 silly gunzTarPerm extractEntry installArchSpecificPackage.js
+147 silly gunzTarPerm modified mode [ 'installArchSpecificPackage.js', 420, 436 ]
+148 silly gunzTarPerm extractEntry index.js
+149 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+150 silly gunzTarPerm extractEntry package.json
+151 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+152 silly gunzTarPerm extractEntry README.md
+153 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+154 silly gentlyRm /home/jerrod/cos243/upland-weather/node_modules/.staging/node-bin-setup-93b247d6/node_modules is being purged
+155 verbose gentlyRm don't care about contents; nuking /home/jerrod/cos243/upland-weather/node_modules/.staging/node-bin-setup-93b247d6/node_modules
+156 silly gentlyRm /home/jerrod/cos243/upland-weather/node_modules/.staging/node-4798e864/node_modules is being purged
+157 verbose gentlyRm don't care about contents; nuking /home/jerrod/cos243/upland-weather/node_modules/.staging/node-4798e864/node_modules
+158 silly doParallel preinstall 2
+159 silly preinstall node-bin-setup@1.0.6 /home/jerrod/cos243/upland-weather/node_modules/.staging/node-bin-setup-93b247d6
+160 info lifecycle node-bin-setup@1.0.6~preinstall: node-bin-setup@1.0.6
+161 silly preinstall node@16.10.0 /home/jerrod/cos243/upland-weather/node_modules/.staging/node-4798e864
+162 info lifecycle node@16.10.0~preinstall: node@16.10.0
+163 silly lifecycle node-bin-setup@1.0.6~preinstall: no script for preinstall, continuing
+164 verbose lifecycle node@16.10.0~preinstall: unsafe-perm in lifecycle true
+165 verbose lifecycle node@16.10.0~preinstall: PATH: /usr/share/npm/bin/node-gyp-bin:/home/jerrod/cos243/upland-weather/node_modules/.staging/node-4798e864/node_modules/.bin:/home/jerrod/cos243/upland-weather/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+166 verbose lifecycle node@16.10.0~preinstall: CWD: /home/jerrod/cos243/upland-weather/node_modules/.staging/node-4798e864
+167 silly lifecycle node@16.10.0~preinstall: Args: [ '-c', 'node installArchSpecificPackage' ]
+168 silly lifecycle node@16.10.0~preinstall: Returned: code: 1  signal: null
+169 info lifecycle node@16.10.0~preinstall: Failed to exec preinstall script
+170 verbose unlock done using /home/jerrod/.npm/_locks/staging-eb3e5ba56164bbd9.lock for /home/jerrod/cos243/upland-weather/node_modules/.staging
+171 silly rollbackFailedOptional Starting
+172 silly rollbackFailedOptional Finishing
+173 silly runTopLevelLifecycles Starting
+174 silly runTopLevelLifecycles Finishing
+175 silly install printInstalled
+176 warn upland-weather@1.0.0 No description
+177 warn upland-weather@1.0.0 No repository field.
+178 verbose stack Error: node@16.10.0 preinstall: `node installArchSpecificPackage`
+178 verbose stack Exit status 1
+178 verbose stack     at EventEmitter.<anonymous> (/usr/share/npm/lib/utils/lifecycle.js:232:16)
+178 verbose stack     at emitTwo (events.js:126:13)
+178 verbose stack     at EventEmitter.emit (events.js:214:7)
+178 verbose stack     at ChildProcess.<anonymous> (/usr/share/npm/lib/utils/spawn.js:24:14)
+178 verbose stack     at emitTwo (events.js:126:13)
+178 verbose stack     at ChildProcess.emit (events.js:214:7)
+178 verbose stack     at maybeClose (internal/child_process.js:925:16)
+178 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
+179 verbose pkgid node@16.10.0
+180 verbose cwd /home/jerrod/cos243/upland-weather
+181 error Linux 5.4.0-87-generic
+182 error argv "/usr/bin/node" "/usr/bin/npm" "install" "node@latest"
+183 error node v8.10.0
+184 error npm  v3.5.2
+185 error code ELIFECYCLE
+186 error node@16.10.0 preinstall: `node installArchSpecificPackage`
+186 error Exit status 1
+187 error Failed at the node@16.10.0 preinstall script 'node installArchSpecificPackage'.
+187 error Make sure you have the latest version of node.js and npm installed.
+187 error If you do, this is most likely a problem with the node package,
+187 error not with npm itself.
+187 error Tell the author that this fails on your system:
+187 error     node installArchSpecificPackage
+187 error You can get information on how to open an issue for this project with:
+187 error     npm bugs node
+187 error Or if that isn't available, you can get their info via:
+187 error     npm owner ls node
+187 error There is likely additional logging output above.
+188 verbose exit [ 1, true ]
